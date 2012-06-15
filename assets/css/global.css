@@ -1,0 +1,86 @@
+/************************** STRUCTURE *************************/
+
+body {
+	background-image: url("../images/tiles/green-stripe.gif"); 
+	background-repeat: repeat;
+	margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#wrapper {
+	margin: 120px auto;
+    padding: 0;
+
+}
+
+/************************** THAT BOX YOU TYPE INTO *************************/
+
+
+#entry_panel {
+	width: 501px;
+	height: 121px;
+	background-image:url("../images/type.png");
+	position:relative;
+
+}
+
+/************************** DISPLAY OF SPELLCHECK RESULTS *************************/
+
+.panel {
+	width: 501px;
+	height: 301px;
+	margin: 10px 0 0 0;
+	position:relative;
+	display:none;
+}
+
+#correct_panel {
+	background-image:url("../images/correct.png");
+}
+
+#sorry_panel {
+	background-image:url("../images/sorry.png");
+}
+
+#error_panel {
+	background-image:url("../images/error.png");
+}
+
+#unknown_panel {
+	background-image:url("../images/unknown.png");
+}
+
+/************************** INPUT/OUTPUT *************************/
+
+
+#textSource { /* input */
+    width: 360px;
+	height: 86px;
+    left: 16px;
+    position: absolute;
+    top: 17px;
+    color: #111;
+    font-family: 'Cabin Sketch',cursive;
+    font-size: 400%;
+    margin: 0;
+}
+
+#dummyInput { /* prevents 'enter' key from submitting form */
+	display:none;
+}
+
+#check_button {	/* button pressed to submit word */
+	position:absolute;
+	left:395px;
+	top:16px;
+}
+
+#guess {	/* text box that will display best-guess match */
+	color: #444444;
+    font-family: 'Helvetica',sans-serif;
+    font-size: 240%;
+    margin: auto;
+    padding: 117px 0 0;
+    text-decoration: underline;
+}
