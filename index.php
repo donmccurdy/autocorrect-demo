@@ -70,7 +70,7 @@ function checkSpelling()  //Submit text to server, display a result
 <div id="wrapper">
 
 	<div id="entry_panel"><form>
-	<input id="textSource" type="text" onkeypress="{if (event.keyCode == 13) checkSpelling()}"></input>
+	<input id="textSource" type="text" onkeypress="{if (event.keyCode == 13) checkSpelling()}" placeholder="type a word" ></input>
 	<input id="dummyInput" type="text"></input>
 	<a id="check_button" href="#" onclick="checkSpelling()"><img src="./assets/images/button.png" alt="Check"></img></a>
 	</form></div>
