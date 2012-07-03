@@ -10,4 +10,4 @@ To run this project, you'll need to do two things:
 
 2) Make sure you have permissions to execute, and call 'nohup | ./spellchecker.py &' to start the XML-RPC server as a daemon.
 
-(c) Don McCurdy, 2012.
+Don McCurdy, 2012.
