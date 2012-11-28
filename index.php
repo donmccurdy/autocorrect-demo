@@ -62,9 +62,19 @@ function checkSpelling()  //Submit text to server, display a result
 </script>
 <link href="./assets/css/global.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/gh-fork-ribbon.css" />
+<!--[if IE]>
+	<link rel="stylesheet" href="assets/css/gh-fork-ribbon.ie.css" />
+<![endif]-->
 </head>
 
 <body>
+
+<div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+        <a href="https://github.com/donmccurdy/autocorrect-demo">Fork me on GitHub</a>
+    </div>
+</div>
 
 <center>
 <div id="wrapper">
