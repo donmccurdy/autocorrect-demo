@@ -2,7 +2,7 @@
 
 Note: The dictionary used is the unabridged text of Moby Dick, so many modern words will not be recognized. Contractions are also not corrected.
 
-DEMO: http://donmccurdy.net/projects/autocorrect-demo/
+DEMO: *Currently Unavailable*
 
 ----
 
